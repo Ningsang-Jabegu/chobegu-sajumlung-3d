@@ -1,0 +1,125 @@
+
+/*Fonts used in the website*/
+@font-face {
+    font-family: "preeti-regular";
+    src: url(./fonts/Preeti\ Normal.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "preeti-bold";
+    src: url(./fonts/Preeti\ Bold.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ananda-regular";
+    src: url(./fonts/Ananda\ Akchyar.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ananda-bold";
+    src: url(./fonts/Ananda\ Akchyar\ bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ganess-regular";
+    src: url(./fonts/Ganess\ Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "yakthung-regular";
+    src: url(./fonts/yakthung.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "yakthung-bold";
+    src: url(./fonts/yakthungb.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Mobile Responsive */
+
+/* Tags */
+header {
+    background-color: #CCE9D4;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+/* Heading */
+.text-ananda-b {
+    font-family: "ananda-bold";
+}
+.text-yakthung-r {
+    font-family: "yakthung-regular";
+}
+.text-ganess-r {
+    font-family: "ganess-regular";
+}
+.text-calibri-r {
+    font-family: "calibri";
+}
+.head-logo {
+    height: 12em;
+    width: 12em;
+    padding: .75em;
+}
+header div img {
+    float: left;
+}
+header div .org-introduction {
+    float: right;
+    padding: .3em;
+}
+.org-introduction {
+    text-align: center;
+    line-height: .75em;
+    width: 85%;
+}
+
+.text-red{
+    color: #FF0000;
+}
+.text-heading-green{
+    color: #306948;
+}
+.text-heading-blue{
+    color: #50456F;
+}
+.size-1-heading {
+    font-size: 20pt;
+}
+.size-2-heading {
+    font-size: 30pt;
+    transform: scale(1.01, 0.9);
+}
+.size-3-heading {
+    font-size: 23pt;
+    /* stretching font vertically */
+    transform: scale(0.8, 1.2);
+    letter-spacing: 1pt;
+    font-weight: bolder;
+    padding-top: 1pt;
+  
+}
+.size-4-heading {
+    font-size: 30.38pt;
+    transform: scale(1.1, 1.1);
+}
+.size-5-heading {
+    font-size: 18pt;
+}
+.cap {
+    text-transform: uppercase;
+}
