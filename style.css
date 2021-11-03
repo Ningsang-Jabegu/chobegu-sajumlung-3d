@@ -47,7 +47,9 @@
 
 /* Tags */
 header {
-    background-color: #CCE9D4;
+    background-image: url(./images/Group\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
     width: 100%;
     padding: 0;
@@ -56,6 +58,8 @@ header {
 body {
     padding: 0;
     margin: 0;
+    overflow: hidden;
+    background: linear-gradient(165deg, #527785 0%, #527785 100%);
 }
 /* Heading */
 .text-ananda-b {
@@ -81,12 +85,14 @@ header div img {
 header div .org-introduction {
     float: right;
     padding: .3em;
+
 }
 .org-introduction {
     text-align: center;
     line-height: .75em;
-    width: 85%;
+    width: 75%;
 }
+
 
 .text-red{
     color: #FF0000;
