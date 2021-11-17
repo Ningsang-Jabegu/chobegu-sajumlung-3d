@@ -58,8 +58,7 @@ header {
 body {
     padding: 0;
     margin: 0;
-    overflow: hidden;
-    background: linear-gradient(165deg, #527785 0%, #527785 100%);
+    background: #195746;
 }
 /* Heading */
 .text-ananda-b {
@@ -128,4 +127,26 @@ header div .org-introduction {
 }
 .cap {
     text-transform: uppercase;
+}
+nav {
+    background-color: #50456F;
+    height: 2em;
+    color: white;
+}
+.body-content {
+    background-color: #F5F1E1;
+    border: 2px solid #75859A;
+    border-radius: .5em;
+    margin: 1em;
+    height: 100vh;
+}
+footer {
+    background-color: #343F55;
+    height: auto;
+    padding: 3em;
+}
+.footer-logo {
+    display: block;
+    padding-left: 3.1em;
+    padding-top: 0.5em;
 }
