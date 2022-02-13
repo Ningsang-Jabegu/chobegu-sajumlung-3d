@@ -104,9 +104,6 @@ section:nth-child(2) .first-leg, section:nth-child(2) .second-leg {
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-section:nth-child(2) .first-leg {
-
-}
 section:nth-child(2) .second-leg {
     position: relative;
     margin-left: 280px;
@@ -199,4 +196,49 @@ section:nth-child(3) div:nth-child(2)  {
     width: 100%;
     line-height: 1em;
     top: 0;
+}
+
+/* For fence */
+section:nth-child(4) {
+    position: absolute;
+    z-index: 11;
+    bottom: 90px;
+    width: 100%;
+}
+section:nth-child(4) img:first-child, section:nth-child(4) img:nth-child(2) {
+    height: 200px;
+    width: 50em;
+    position: relative;
+    float: inline-start;
+}
+section:nth-child(4) img:nth-child(2) {
+    height: 200px;
+    width: 300px;
+    margin-left: -5px;
+}
+section:nth-child(4) img:nth-child(3) {
+   position: inherit;
+   float: inline-end;
+   width: 27.999em;
+   right: 0;
+   height: 200px;
+}
+
+/* This is for road */
+section:nth-child(5) {
+    position: relative;
+    z-index: 35;
+    height: 108px;
+    background: rgba(21, 114, 60, 0.644) url(/images/road.png);
+    margin-top: 462px;
+    opacity: 85%;
+    background-size: contain;
+}
+
+/* This is footer */
+footer {
+    position: absolute;
+    background: #0000;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
